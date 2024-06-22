@@ -11,8 +11,8 @@ import java.sql.SQLException;
 public class Database {
     private final static String bd = "personas";
     private final static String login = "root";
-    private final static String password = "1234";
-    private final static String url = "jdbc:mysql://localhost:3306/" + bd;
+    private final static String password = "root";
+    private final static String url = "jdbc:mysql://localhost:3307/" + bd;
 
     public static Connection getConnection() {
         try {
